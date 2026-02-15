@@ -16,7 +16,7 @@ const VARIANT_META: Record<string, {
     description: 'Real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. OSINT in one view.',
     keywords: 'global intelligence, geopolitical dashboard, world news, market data, military bases, nuclear facilities, undersea cables, conflict zones, real-time monitoring, situation awareness, OSINT, flight tracking, AIS ships, earthquake monitor, protest tracker, power outages, oil prices, government spending, polymarket predictions',
     url: 'https://worldmonitor.app/',
-    siteName: 'World Monitor',
+    siteName: "Wataru's World Monitor",
     features: [
       'Real-time news aggregation',
       'Stock market tracking',
