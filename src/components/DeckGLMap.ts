@@ -313,9 +313,9 @@ export class DeckGLMap {
           'carto-dark': {
             type: 'raster',
             tiles: [
-              'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
-              'https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
-              'https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
+              'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png',
+              'https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png',
+              'https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png',
             ],
             tileSize: 256,
             attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
@@ -326,7 +326,7 @@ export class DeckGLMap {
             id: 'background',
             type: 'background',
             paint: {
-              'background-color': '#0a0f0c',
+              'background-color': '#f0f0f0',
             },
           },
           {
